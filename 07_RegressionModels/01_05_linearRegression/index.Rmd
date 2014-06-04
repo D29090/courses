@@ -122,7 +122,7 @@ for $\mu_i$ expressed as points on a line
 ---
 ## Example
 ### `diamond` data set from `UsingR` 
-Data is diamond prices (Signapore dollars) and diamond weight
+Data is diamond prices (Singapore dollars) and diamond weight
 in carats (standard measure of diamond mass, 0.2 $g$). To get the data use `library(UsingR); data(diamond)`
 
 Plotting the fitted regression line and data
@@ -139,7 +139,7 @@ abline(lm(price ~ carat, data = diamond), lwd = 2)
 ---
 ## The plot
 ```{r, echo = FALSE, fig.height=5,fig.width=5}
-data(diamond)
+library(UsingR);data(diamond)
 plot(diamond$carat, diamond$price,  
      xlab = "Mass (carats)", 
      ylab = "Price (SIN $)", 

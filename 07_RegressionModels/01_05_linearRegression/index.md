@@ -109,8 +109,8 @@ for $\mu_i$ expressed as points on a line
 ---
 ## Example
 ### `diamond` data set from `UsingR` 
-Data is diamond prices (Signapore dollars) and diamond weight
-in carats (standard measure of diamond mass, 0.2 $g$). To get the data use `library(UsingR); data(diamond)`
+Data is diamond prices (Singapore dollars) and diamond weight
+in carats (standard measure of diamond mass, 0.2 $g$). To get the data use 
 
 Plotting the fitted regression line and data
 ```
